@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Courier New', Courier, monospace; /* Alterado para Courier New */
 }
 
 header {
@@ -19,15 +20,15 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff3300;
-    font-family: 'Orbitron', sans-serif;
+    color: #1e63b1; /* Cor alterada */
+    font-family: 'Courier New', Courier, monospace; /* Alterado para Courier New */
     font-size: 18px;
-    text-shadow: 0px 0px 5px #ff3300;
+    text-shadow: 0px 0px 5px #1e63b1; /* Cor alterada */
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: #ff4400;
+    color: #1e63b1; /* Cor alterada */
 }
 
 .photo-container {
@@ -42,18 +43,18 @@ nav ul li a:hover {
     width: 30%;
     max-width: 300px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #ff3300;
+    box-shadow: 0px 0px 15px #1e63b1; /* Cor alterada */
     transition: transform 0.3s ease-in-out;
 }
 
 .photo-container img:hover {
     transform: scale(1.1);
-    box-shadow: 0px 0px 20px #ff4400;
+    box-shadow: 0px 0px 20px #1e63b1; /* Cor alterada */
 }
 
 h1, h2 {
     text-align: center;
-    color: #ff3300;
-    font-family: 'Orbitron', sans-serif;
-    text-shadow: 0px 0px 10px #ff3300;
+    color: #1e63b1; /* Cor alterada */
+    font-family: 'Courier New', Courier, monospace; /* Alterado para Courier New */
+    text-shadow: 0px 0px 10px #1e63b1; /* Cor alterada */
 }
